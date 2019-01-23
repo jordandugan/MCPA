@@ -20,7 +20,6 @@ for i = 1:2000
     plot(x,0, 'o', 'MarkerSize', 10);
     xlim([0, 1e-23]);
     title(sprintf('%e m/s', vdrift(i)));
-   
     drawnow
     xpp = xp;
     xp = x;
